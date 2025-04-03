@@ -12,7 +12,6 @@ from nltk.tokenize import word_tokenize
 import nltk
 import os
 
-
 # Set a writable directory for NLTK data
 nltk_data_path = os.path.join(os.path.expanduser("~"), "nltk_data")
 if not os.path.exists(nltk_data_path):
@@ -23,9 +22,7 @@ nltk.data.path.append(nltk_data_path)
 # Ensure 'punkt' is downloaded
 nltk.download('punkt', download_dir=nltk_data_path)
 
-# Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('wordnet')
+from nltk.tokenize import word_tokenize
 
 # Generate synthetic dataset
 def generate_dataset():
