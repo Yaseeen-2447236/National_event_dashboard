@@ -12,8 +12,8 @@ from nltk.tokenize import word_tokenize
 import nltk
 
 # Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 # Generate synthetic dataset
 def generate_dataset():
